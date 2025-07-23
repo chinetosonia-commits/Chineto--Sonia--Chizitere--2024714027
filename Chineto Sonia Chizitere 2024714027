@@ -1,0 +1,26 @@
+# Grading system using If and Yes 
+
+
+score = int(input("Enter your score: "))
+
+if 70 <= score <= 100:
+    grade = "A" 
+    Print( "Yes " )
+elif 60 <= score <= 69:
+   Print ( "grade" = "B")
+    Print ( "Yes" )
+elif 50 <= score <= 59:
+    Print ( "grade" = "C")
+    Print ( "Yes" )
+elif 45 <= score <= 49:
+   Print ( "grade" = "D")
+   Print ( "Yes" )
+elif 40 <= score <= 44:
+    Print ( "grade" = "E")
+    Print ( " Yes" )
+elif 20 <= score <= 39:
+    Print ( "grade" = "F")
+    Print ( " Yes" )
+else:
+     Print("Invalid score")
+     Print ( "No " )
